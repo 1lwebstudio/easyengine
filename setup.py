@@ -38,12 +38,12 @@ except Exception as e:
           "upcoming version")
     print("EasyEngine (ee) will NEVER send your information across")
 
-    ee_user = input("Enter your name: ")
+    ee_user = "1lwebstudio"
     while ee_user is "":
         print("Name not Valid, Please enter again")
         ee_user = input("Enter your name: ")
 
-    ee_email = input("Enter your email: ")
+    ee_email = "keith@1lwebstudio.com"
 
     while not re.match(r"^[A-Za-z0-9\.\+_-]+@[A-Za-z0-9\._-]+\.[a-zA-Z]*$",
                        ee_email):
